@@ -1,14 +1,15 @@
 const {shuffleArray} = require('./utils')
 
 
-// describe('shuffleArray should', () => {
-//     test('return an array', () => {
+describe('shuffleArray should', () => {
+    test('return an array of same length', () => {
 
-//         expect().toBe(11)
-//     })
+        expect(shuffleArray(Array.length)).toEqual(Array.length)
+    })
     
-//     test('', () => {
-//         expect(shuffleArray(Array)).toContain('Rusty')
-//     })
+    // test('', () => {
+    //     expect(shuffleArray(Array)).toContain('Rusty')
+    // })
     
-// })
+})
+
